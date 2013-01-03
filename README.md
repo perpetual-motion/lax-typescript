@@ -25,7 +25,7 @@ require("foo.ts"); // will automatically compile and load foo.ts
 ```    
 
 ## Notes
-   lax-typescript uses the syntax from typescript with two changes:,
+   lax-typescript uses the syntax from typescript with two changes:
       
       - doesn't bother to validate typings
       - provides transparent usage of require for .ts files
