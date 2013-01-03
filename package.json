@@ -1,0 +1,24 @@
+{
+  "author": {
+    "name": "Garrett Serack"
+  },
+  "name": "lax-typescript",
+  "description": "Adds ability to simply require .ts files and automatically compile to js on the fly, using very lax compiler settings",
+  "version": "0.8.1",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/perpetual-motion/lax-typescript"
+  },
+  "engines": {
+    "node": "0.8.x"
+  },
+  "preferGlobal": true,
+  "main": "lib/main.js",
+  "bin": {
+    "ltsc": "./bin/ltsc"
+  },
+  "dependencies": {
+    "typescript-compiler": "git://github.com/perpetual-motion/typescript-compiler.git"
+  }
+}
