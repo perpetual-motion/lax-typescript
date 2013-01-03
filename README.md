@@ -1,6 +1,7 @@
 # Lax TypeScript
 
 Runs lax-typescript scripts (.ts) 
+
 Typescript: Scalable JavaScript development with types, classes and modules.
 
 ## Install
@@ -14,6 +15,7 @@ Typescript: Scalable JavaScript development with types, classes and modules.
 
 #### Example
    `ltsc hello.ts`
+   
    Compiles and runs the hello.ts script immediately.
 
 ### alternate usage
