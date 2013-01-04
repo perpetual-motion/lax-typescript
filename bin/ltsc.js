@@ -1,5 +1,5 @@
 var path = require('path');
-var ltsc = require("../lib/main.js");
+var ltsc = require("../lib/lax-typescript.js");
 
 if( process.argv.length > 2 ) {
     // identify the path to the start file.

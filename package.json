@@ -14,7 +14,7 @@
     "node": "0.8.x"
   },
   "preferGlobal": true,
-  "main": "lib/main.js",
+  "main": "lib/lax-typescript.js",
   "bin": {
     "ltsc": "./bin/ltsc"
   },
