@@ -19,6 +19,6 @@
     "ltsc": "./bin/ltsc"
   },
   "dependencies": {
-    "typescript-compiler": "git://github.com/perpetual-motion/typescript-compiler.git"
+    "typescript": ">=0.8.1~1"
   }
 }
