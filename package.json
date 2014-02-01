@@ -3,22 +3,41 @@
     "name": "Garrett Serack"
   },
   "name": "lax-typescript",
+  "version": "0.9.5",
   "description": "Adds ability to simply require .ts files and automatically compile to js on the fly, using very lax compiler settings",
-  "version": "0.8.1",
-  "homepage": "",
+  "main": "index.js",
+  "directories": {},
+  "dependencies": {
+    "typescript": "0.9.5"
+  },
+  
+  "devDependencies": {},
+  "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/perpetual-motion/lax-typescript"
+    "url": "https://github.com/perpetual-motion/lax-typescript.git"
   },
-  "engines": {
-    "node": "0.8.x"
-  },
-  "preferGlobal": true,
-  "main": "lib/lax-typescript.js",
+  "keywords": [
+    "typescript",
+    "compiler",
+    "require",
+    "reflect"
+  ],
+ "main": "lib/lax-typescript.js",
   "bin": {
     "ltsc": "./bin/ltsc"
   },
-  "dependencies": {
-    "typescript": ">=0.8.1~1"
-  }
+"preferGlobal": true,
+  "licenses": [
+    {
+      "type": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  ],
+  "readmeFilename": "readme.md",
+  
+  "bugs": {
+    "url": "https://github.com/perpetual-motion/lax-typescript/issues"
+  },
+  "homepage": "https://github.com/perpetual-motion/lax-typescript"
 }
